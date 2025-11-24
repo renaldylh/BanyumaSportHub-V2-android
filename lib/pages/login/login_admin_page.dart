@@ -3,7 +3,7 @@ import '../../app_theme.dart';
 import '../admin/admin_main_page.dart';
 
 class LoginAdminPage extends StatefulWidget {
-  const LoginAdminPage({Key? key}) : super(key: key);
+  const LoginAdminPage({super.key});
 
   @override
   State<LoginAdminPage> createState() => _LoginAdminPageState();

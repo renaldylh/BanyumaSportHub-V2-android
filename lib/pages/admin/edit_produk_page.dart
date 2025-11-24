@@ -9,13 +9,13 @@ class EditProdukPage extends StatefulWidget {
   final String deskripsi;
 
   const EditProdukPage({
-    Key? key,
+    super.key,
     required this.produkId,
     required this.namaProduk,
     required this.harga,
     required this.stok,
     required this.deskripsi,
-  }) : super(key: key);
+  });
 
   @override
   State<EditProdukPage> createState() => _EditProdukPageState();

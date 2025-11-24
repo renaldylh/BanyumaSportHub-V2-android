@@ -7,11 +7,11 @@ class DetailPenggunaPage extends StatelessWidget {
   final String role;
 
   const DetailPenggunaPage({
-    Key? key,
+    super.key,
     required this.nama,
     required this.email,
     required this.role,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

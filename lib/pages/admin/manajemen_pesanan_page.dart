@@ -3,7 +3,7 @@ import '../../app_theme.dart';
 import 'detail_pesanan_page.dart';
 
 class ManajemenPesananPage extends StatefulWidget {
-  const ManajemenPesananPage({Key? key}) : super(key: key);
+  const ManajemenPesananPage({super.key});
 
   @override
   State<ManajemenPesananPage> createState() => _ManajemenPesananPageState();
@@ -121,7 +121,7 @@ class _ManajemenPesananPageState extends State<ManajemenPesananPage> {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: DataTable(
-                    headingRowColor: MaterialStateProperty.all(
+                    headingRowColor: WidgetStateProperty.all(
                       AppTheme.primaryColor.withOpacity(0.1),
                     ),
                     columns: const [

@@ -6,7 +6,7 @@ import 'manajemen_pengguna_page.dart';
 import 'manajemen_pesanan_page.dart';
 
 class AdminMainPage extends StatefulWidget {
-  const AdminMainPage({Key? key}) : super(key: key);
+  const AdminMainPage({super.key});
 
   @override
   State<AdminMainPage> createState() => _AdminMainPageState();

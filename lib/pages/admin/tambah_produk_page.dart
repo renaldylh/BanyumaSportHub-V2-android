@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../app_theme.dart';
 
 class TambahProdukPage extends StatefulWidget {
-  const TambahProdukPage({Key? key}) : super(key: key);
+  const TambahProdukPage({super.key});
 
   @override
   State<TambahProdukPage> createState() => _TambahProdukPageState();

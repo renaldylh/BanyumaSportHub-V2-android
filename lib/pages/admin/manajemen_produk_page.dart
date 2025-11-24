@@ -4,7 +4,7 @@ import 'edit_produk_page.dart';
 import 'tambah_produk_page.dart';
 
 class ManajemenProdukPage extends StatefulWidget {
-  const ManajemenProdukPage({Key? key}) : super(key: key);
+  const ManajemenProdukPage({super.key});
 
   @override
   State<ManajemenProdukPage> createState() => _ManajemenProdukPageState();
@@ -148,7 +148,7 @@ class _ManajemenProdukPageState extends State<ManajemenProdukPage> {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: DataTable(
-                    headingRowColor: MaterialStateProperty.all(
+                    headingRowColor: WidgetStateProperty.all(
                       AppTheme.primaryColor.withOpacity(0.1),
                     ),
                     columns: const [

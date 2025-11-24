@@ -4,7 +4,7 @@ import 'login_admin_page.dart';
 import 'login_user_page.dart';
 
 class RoleSelectionPage extends StatelessWidget {
-  const RoleSelectionPage({Key? key}) : super(key: key);
+  const RoleSelectionPage({super.key});
 
   @override
   Widget build(BuildContext context) {

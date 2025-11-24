@@ -4,7 +4,7 @@ import '../../app_theme.dart';
 
 class DetailPesananPage extends StatelessWidget {
   final String pesananId;
-  const DetailPesananPage({Key? key, required this.pesananId}) : super(key: key);
+  const DetailPesananPage({super.key, required this.pesananId});
 
   @override
   Widget build(BuildContext context) {

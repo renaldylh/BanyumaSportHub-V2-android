@@ -10,7 +10,7 @@ class AppTheme {
     colorScheme: const ColorScheme.light(
       primary: primaryColor,
       secondary: secondaryColor,
-      background: backgroundColor,
+      surface: backgroundColor,
     ),
     textTheme: GoogleFonts.poppinsTextTheme(),
     scaffoldBackgroundColor: backgroundColor,

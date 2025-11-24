@@ -3,7 +3,7 @@ import '../../app_theme.dart';
 import 'detail_pengguna_page.dart';
 
 class ManajemenPenggunaPage extends StatelessWidget {
-  const ManajemenPenggunaPage({Key? key}) : super(key: key);
+  const ManajemenPenggunaPage({super.key});
 
   @override
   Widget build(BuildContext context) {
